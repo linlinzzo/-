@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <!-- Adaptive web page -->
 <meta name="applicable-device"content="pc,mobile">
-<meta baidu-gxt-verify-token="6d1d24bf426d29c5a65e5955c311d03e">
 <!-- Browser optimization -->
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 <!-- Head key information -->
