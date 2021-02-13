@@ -1,5 +1,6 @@
 <?php if(!defined('WMBLOG'))exit;?>
 <!DOCTYPE HTML>
+<!-- 在这边声明中文网站，如果是外文网站请修改 -->
 <html lang="zh">
 <html>
 <head>
@@ -33,6 +34,8 @@
 <link href="assets/js/wangeditor/css/wangEditor.min.css" rel="stylesheet" type="text/css" />
 <?php }?>
 <?php if($tpl=='view.php'){?>
+<!-- 本人辛辛苦苦找到本js的外部链接是https://cdn.bootcdn.net/ajax/libs/highlight.js/10.5.0/styles/dark.min.css -->
+<!-- 两个外部库的文件还没有得到核实，请自行核实使用 -->
 <link href="assets/js/highlightjs/dark.css" rel="stylesheet" type="text/css" />
 <?php }?>
 </head>
@@ -42,6 +45,7 @@
 <div class="navbar-wrap">
   <div class="box-m">
     <div class="logo">
+      <!-- SEO建议说这边应该改成h1标签，请各位自行修改 -->
       <h2 id="title"><a href="./"><?php echo $webtitle;?></a></h2>   
     </div>	   
       <ul id="nav" class="collapse"> 
