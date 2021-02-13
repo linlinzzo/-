@@ -3,6 +3,7 @@
 $t1 = microtime(true);
 require_once 'app/class/app.php';
 require_once 'app/class/page.php';
+//此处可以选择性地引入waf.php，具体引入方式还没有得到试验(include/require)
 $db = new DbHelpClass();
 $p = isset($_GET['p']) ? intval($_GET['p']) : 1;
 $act = isset($_GET['act']) ? $_GET['act'] : '';
