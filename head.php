@@ -17,22 +17,18 @@
 <!-- Browser settings -->
 <meta name="x5-orientation" content="portrait">
 <meta name="screen-orientation" content="portrait">
-<meta name="author" content="linlinzzo" />
 <meta name="robots" content="index,follow" />
 <meta name="applicable-device"content="pc,mobile">
-<meta property="article:author" content="linlinzzo">
 <!-- og tag -->
 <meta property="og:type" content="article"/>
 <meta property="og:title" content="<?php echo $tit.'_'.$webtitle;?>">
 <meta property="og:type" content="article"/>
 <meta property="og:site_name" content="<?php echo $webtitle;?>" />
 <meta property="og:description" content="<?php echo $des;?>">
-<meta property="og:image" content="http://wiki.linlinzzo.top/SEO.jpg">
 <meta property="og:url" content="<?php echo $url;?>"> 
 <meta property="article:tag" content="<?php echo $key;?>" />
 <!-- QQ Browser optimization -->
 <meta itemprop="description" content="<?php echo $des;?>">
-<meta itemprop="image" content="http://wiki.linlinzzo.top/SEO.jpg">
 <link href="assets/<?php echo TEMPLATE;?>/style.css?v=4.0" rel="stylesheet" type="text/css" />
 <?php if($tpl=='post.php'){?>
 <link href="assets/js/wangeditor/css/wangEditor.min.css" rel="stylesheet" type="text/css" />
